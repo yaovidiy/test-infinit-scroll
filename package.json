@@ -20,6 +20,8 @@
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
     "@types/uuid": "^9.0.8",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
     "autoprefixer": "^10.4.19",
     "daisyui": "^4.10.5",
     "postcss": "^8.4.38",
