@@ -7,7 +7,7 @@
         </figure>
         <div class="flex flex-col gap-1">
           <h2 class="font-bold">{{ item.name }}</h2>
-          <p class="text-sm">{{ item.views }}</p>
+          <p class="text-sm">Views: {{ item.views }}</p>
           <p><a class="link link-accent" :href="item.website" target="_blank">{{ item.website }}</a></p>
         </div>
       </div>

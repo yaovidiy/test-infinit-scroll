@@ -7,6 +7,7 @@ export function getItems(amountOfItems: number) {
 
   for (let i = 0; i < amountOfItems; i++) {
     const item: Item = {
+      uuid: uuidv4(),
       avatar: faker.image.avatar(),
       name: faker.person.fullName(),
       website: faker.internet.url(),
