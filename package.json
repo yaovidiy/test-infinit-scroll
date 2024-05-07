@@ -13,7 +13,12 @@
     "@hebilicious/vue-query-nuxt": "^0.3.0",
     "@tanstack/vue-query": "^5.35.1",
     "nuxt": "^3.11.2",
+    "uuid": "^9.0.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/uuid": "^9.0.8"
   }
 }
