@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 import { v4 as uuidv4 } from "uuid";
-import type { Item } from ".";
+import type { Item } from "../../types";
 
 export function getItems(amountOfItems: number) {
   const items: Item[] = [];
@@ -19,3 +19,8 @@ export function getItems(amountOfItems: number) {
   return items;
 }
 
+export function wait(timeout: number = 1000) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, timeout);
+  });
+}
